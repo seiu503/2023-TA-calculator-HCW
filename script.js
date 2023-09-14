@@ -1,401 +1,561 @@
 const lookup = [
   {
     "userHours": 1,
-    "eocHourly": 20.77,
-    "locTotal": 2030,
-    "increaseOverCurrent": 426,
+    "eocHourly": 20,
+    "locTotal": 1996,
+    "increaseOverCurrent": 148,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 2,
-    "eocHourly": 20.77,
-    "locTotal": 4060,
-    "increaseOverCurrent": 853,
+    "eocHourly": 20,
+    "locTotal": 3992,
+    "increaseOverCurrent": 296,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 3,
-    "eocHourly": 20.77,
-    "locTotal": 6090,
-    "increaseOverCurrent": 1279,
+    "eocHourly": 20,
+    "locTotal": 5988,
+    "increaseOverCurrent": 444,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 4,
-    "eocHourly": 20.77,
-    "locTotal": 8120,
-    "increaseOverCurrent": 1706,
+    "eocHourly": 20,
+    "locTotal": 7984,
+    "increaseOverCurrent": 592,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 5,
-    "eocHourly": 20.77,
-    "locTotal": 10150,
-    "increaseOverCurrent": 2132,
+    "eocHourly": 20,
+    "locTotal": 9980,
+    "increaseOverCurrent": 740,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 6,
-    "eocHourly": 20.77,
-    "locTotal": 12180,
-    "increaseOverCurrent": 2559,
+    "eocHourly": 20,
+    "locTotal": 11976,
+    "increaseOverCurrent": 888,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 7,
-    "eocHourly": 20.77,
-    "locTotal": 14211,
-    "increaseOverCurrent": 2985,
+    "eocHourly": 20,
+    "locTotal": 13972,
+    "increaseOverCurrent": 1035,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 8,
-    "eocHourly": 20.77,
-    "locTotal": 16241,
-    "increaseOverCurrent": 3412,
+    "eocHourly": 20,
+    "locTotal": 15968,
+    "increaseOverCurrent": 1183,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 9,
-    "eocHourly": 20.77,
-    "locTotal": 18271,
-    "increaseOverCurrent": 3838,
+    "eocHourly": 20,
+    "locTotal": 17964,
+    "increaseOverCurrent": 1331,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 10,
-    "eocHourly": 20.77,
-    "locTotal": 20301,
-    "increaseOverCurrent": 4265,
+    "eocHourly": 20,
+    "locTotal": 19960,
+    "increaseOverCurrent": 1479,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 11,
-    "eocHourly": 20.77,
-    "locTotal": 22331,
-    "increaseOverCurrent": 4691,
+    "eocHourly": 20,
+    "locTotal": 21956,
+    "increaseOverCurrent": 1627,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 12,
-    "eocHourly": 20.77,
-    "locTotal": 24361,
-    "increaseOverCurrent": 5118,
+    "eocHourly": 20,
+    "locTotal": 23952,
+    "increaseOverCurrent": 1775,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 13,
-    "eocHourly": 20.77,
-    "locTotal": 26391,
-    "increaseOverCurrent": 5544,
+    "eocHourly": 20,
+    "locTotal": 25948,
+    "increaseOverCurrent": 1923,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 14,
-    "eocHourly": 20.77,
-    "locTotal": 28421,
-    "increaseOverCurrent": 5971,
+    "eocHourly": 20,
+    "locTotal": 27944,
+    "increaseOverCurrent": 2071,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 15,
-    "eocHourly": 20.77,
-    "locTotal": 30451,
-    "increaseOverCurrent": 6397,
+    "eocHourly": 20,
+    "locTotal": 29940,
+    "increaseOverCurrent": 2219,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 16,
-    "eocHourly": 20.77,
-    "locTotal": 32481,
-    "increaseOverCurrent": 6824,
+    "eocHourly": 20,
+    "locTotal": 31936,
+    "increaseOverCurrent": 2367,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 17,
-    "eocHourly": 20.77,
-    "locTotal": 34511,
-    "increaseOverCurrent": 7250,
+    "eocHourly": 20,
+    "locTotal": 33932,
+    "increaseOverCurrent": 2515,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 18,
-    "eocHourly": 20.77,
-    "locTotal": 36541,
-    "increaseOverCurrent": 7677,
+    "eocHourly": 20,
+    "locTotal": 35928,
+    "increaseOverCurrent": 2663,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 19,
-    "eocHourly": 20.77,
-    "locTotal": 38572,
-    "increaseOverCurrent": 8103,
+    "eocHourly": 20,
+    "locTotal": 37924,
+    "increaseOverCurrent": 2810,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 20,
-    "eocHourly": 21.77,
-    "locTotal": 41642,
-    "increaseOverCurrent": 8530,
+    "eocHourly": 21,
+    "locTotal": 40960,
+    "increaseOverCurrent": 3998,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 21,
-    "eocHourly": 21.77,
-    "locTotal": 43724,
-    "increaseOverCurrent": 8956,
+    "eocHourly": 21,
+    "locTotal": 43008,
+    "increaseOverCurrent": 4198,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 22,
-    "eocHourly": 21.77,
-    "locTotal": 45806,
-    "increaseOverCurrent": 9383,
+    "eocHourly": 21,
+    "locTotal": 45056,
+    "increaseOverCurrent": 4398,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 23,
-    "eocHourly": 21.77,
-    "locTotal": 47888,
-    "increaseOverCurrent": 9809,
+    "eocHourly": 21,
+    "locTotal": 47104,
+    "increaseOverCurrent": 4598,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 24,
-    "eocHourly": 21.77,
-    "locTotal": 49970,
-    "increaseOverCurrent": 10236,
+    "eocHourly": 21,
+    "locTotal": 49152,
+    "increaseOverCurrent": 4798,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 25,
-    "eocHourly": 21.77,
-    "locTotal": 52052,
-    "increaseOverCurrent": 10662,
+    "eocHourly": 21,
+    "locTotal": 51201,
+    "increaseOverCurrent": 4999,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 26,
-    "eocHourly": 21.77,
-    "locTotal": 54134,
-    "increaseOverCurrent": 11088,
+    "eocHourly": 21,
+    "locTotal": 53249,
+    "increaseOverCurrent": 5199,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 27,
-    "eocHourly": 21.77,
-    "locTotal": 56216,
-    "increaseOverCurrent": 11515,
+    "eocHourly": 21,
+    "locTotal": 55297,
+    "increaseOverCurrent": 5399,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 28,
-    "eocHourly": 21.77,
-    "locTotal": 58298,
-    "increaseOverCurrent": 11941,
+    "eocHourly": 21,
+    "locTotal": 57345,
+    "increaseOverCurrent": 5599,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 29,
-    "eocHourly": 21.77,
-    "locTotal": 60380,
-    "increaseOverCurrent": 12368,
+    "eocHourly": 21,
+    "locTotal": 59393,
+    "increaseOverCurrent": 5799,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 30,
-    "eocHourly": 21.77,
-    "locTotal": 62462,
-    "increaseOverCurrent": 12794,
+    "eocHourly": 21,
+    "locTotal": 61441,
+    "increaseOverCurrent": 5999,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 31,
-    "eocHourly": 21.77,
-    "locTotal": 64544,
-    "increaseOverCurrent": 13221,
+    "eocHourly": 21,
+    "locTotal": 63489,
+    "increaseOverCurrent": 6199,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 32,
-    "eocHourly": 21.77,
-    "locTotal": 66627,
-    "increaseOverCurrent": 13647,
+    "eocHourly": 21,
+    "locTotal": 65537,
+    "increaseOverCurrent": 6398,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 33,
-    "eocHourly": 21.77,
-    "locTotal": 68709,
-    "increaseOverCurrent": 14074,
+    "eocHourly": 21,
+    "locTotal": 67585,
+    "increaseOverCurrent": 6598,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 34,
-    "eocHourly": 21.77,
-    "locTotal": 70791,
-    "increaseOverCurrent": 14500,
+    "eocHourly": 21,
+    "locTotal": 69633,
+    "increaseOverCurrent": 6798,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 35,
-    "eocHourly": 21.77,
-    "locTotal": 72873,
-    "increaseOverCurrent": 14927,
+    "eocHourly": 21,
+    "locTotal": 71681,
+    "increaseOverCurrent": 6998,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 36,
-    "eocHourly": 21.77,
-    "locTotal": 74955,
-    "increaseOverCurrent": 15353,
+    "eocHourly": 21,
+    "locTotal": 73729,
+    "increaseOverCurrent": 7198,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 37,
-    "eocHourly": 21.77,
-    "locTotal": 77037,
-    "increaseOverCurrent": 15780,
+    "eocHourly": 21,
+    "locTotal": 75777,
+    "increaseOverCurrent": 7398,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 38,
-    "eocHourly": 21.77,
-    "locTotal": 79119,
-    "increaseOverCurrent": 16206,
+    "eocHourly": 21,
+    "locTotal": 77825,
+    "increaseOverCurrent": 7598,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 39,
-    "eocHourly": 22.77,
-    "locTotal": 83229,
-    "increaseOverCurrent": 16633,
+    "eocHourly": 22,
+    "locTotal": 81901,
+    "increaseOverCurrent": 9826,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 40,
-    "eocHourly": 22.77,
-    "locTotal": 85363,
-    "increaseOverCurrent": 17059,
+    "eocHourly": 22,
+    "locTotal": 84001,
+    "increaseOverCurrent": 10078,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 41,
-    "eocHourly": 22.77,
-    "locTotal": 87497,
-    "increaseOverCurrent": 17486,
+    "eocHourly": 22,
+    "locTotal": 87151,
+    "increaseOverCurrent": 11380,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 42,
-    "eocHourly": 22.77,
-    "locTotal": 89631,
-    "increaseOverCurrent": 17912,
+    "eocHourly": 22,
+    "locTotal": 90301,
+    "increaseOverCurrent": 12682,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 43,
-    "eocHourly": 22.77,
-    "locTotal": 91765,
-    "increaseOverCurrent": 18339,
+    "eocHourly": 22,
+    "locTotal": 93451,
+    "increaseOverCurrent": 13984,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 44,
-    "eocHourly": 22.77,
-    "locTotal": 93900,
-    "increaseOverCurrent": 18765,
+    "eocHourly": 22,
+    "locTotal": 96601,
+    "increaseOverCurrent": 15285,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 45,
-    "eocHourly": 22.77,
-    "locTotal": 96034,
-    "increaseOverCurrent": 19192,
+    "eocHourly": 22,
+    "locTotal": 99751,
+    "increaseOverCurrent": 16587,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 46,
-    "eocHourly": 22.77,
-    "locTotal": 98168,
-    "increaseOverCurrent": 19618,
+    "eocHourly": 22,
+    "locTotal": 102901,
+    "increaseOverCurrent": 17889,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 47,
-    "eocHourly": 22.77,
-    "locTotal": 100302,
-    "increaseOverCurrent": 20045,
+    "eocHourly": 22,
+    "locTotal": 106051,
+    "increaseOverCurrent": 19191,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 48,
-    "eocHourly": 22.77,
-    "locTotal": 102436,
-    "increaseOverCurrent": 20471,
+    "eocHourly": 22,
+    "locTotal": 109201,
+    "increaseOverCurrent": 20493,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 49,
-    "eocHourly": 22.77,
-    "locTotal": 104570,
-    "increaseOverCurrent": 20898,
+    "eocHourly": 22,
+    "locTotal": 112351,
+    "increaseOverCurrent": 21795,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 50,
-    "eocHourly": 22.77,
-    "locTotal": 106704,
-    "increaseOverCurrent": 21324,
+    "eocHourly": 22,
+    "locTotal": 115501,
+    "increaseOverCurrent": 23097,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 51,
+    "eocHourly": 22,
+    "locTotal": 118651,
+    "increaseOverCurrent": 24399,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 52,
+    "eocHourly": 22,
+    "locTotal": 121801,
+    "increaseOverCurrent": 25701,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 53,
+    "eocHourly": 22,
+    "locTotal": 124951,
+    "increaseOverCurrent": 27003,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 54,
+    "eocHourly": 22,
+    "locTotal": 128101,
+    "increaseOverCurrent": 28305,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 55,
+    "eocHourly": 22,
+    "locTotal": 131251,
+    "increaseOverCurrent": 29607,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 56,
+    "eocHourly": 22,
+    "locTotal": 134401,
+    "increaseOverCurrent": 30909,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 57,
+    "eocHourly": 22,
+    "locTotal": 137551,
+    "increaseOverCurrent": 32210,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 58,
+    "eocHourly": 22,
+    "locTotal": 140701,
+    "increaseOverCurrent": 33512,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 59,
+    "eocHourly": 22,
+    "locTotal": 143851,
+    "increaseOverCurrent": 34814,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 60,
+    "eocHourly": 22,
+    "locTotal": 147001,
+    "increaseOverCurrent": 36116,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 61,
+    "eocHourly": 22,
+    "locTotal": 150151,
+    "increaseOverCurrent": 37418,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 62,
+    "eocHourly": 22,
+    "locTotal": 153301,
+    "increaseOverCurrent": 38720,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 63,
+    "eocHourly": 22,
+    "locTotal": 156451,
+    "increaseOverCurrent": 40022,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 64,
+    "eocHourly": 22,
+    "locTotal": 159602,
+    "increaseOverCurrent": 41325,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 65,
+    "eocHourly": 22,
+    "locTotal": 162752,
+    "increaseOverCurrent": 42627,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 66,
+    "eocHourly": 22,
+    "locTotal": 165902,
+    "increaseOverCurrent": 43929,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 67,
+    "eocHourly": 22,
+    "locTotal": 169052,
+    "increaseOverCurrent": 45231,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 68,
+    "eocHourly": 22,
+    "locTotal": 172202,
+    "increaseOverCurrent": 46533,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 69,
+    "eocHourly": 22,
+    "locTotal": 175352,
+    "increaseOverCurrent": 47834,
+    "numCOLAs": 2,
+    "numSteps": 2
+  },
+  {
+    "userHours": 70,
+    "eocHourly": 22,
+    "locTotal": 178502,
+    "increaseOverCurrent": 49136,
     "numCOLAs": 2,
     "numSteps": 2
   }
