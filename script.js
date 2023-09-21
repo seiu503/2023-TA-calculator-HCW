@@ -733,6 +733,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let payIncreaseDollar = eocHourly - 17.77 || 0;
     let payIncreasePercent = (payIncreaseDollar / 17.77 * 100).toFixed(0) || 0;
     let locTotal = userObj['locTotal'] || 0;
+    let increaseOverLOC = locTotal - (17.77 * userHours * 104) || 0;
 
     console.log(`numCOLAs: ${numCOLAs}`);
     console.log(`numSteps: ${numSteps}`);
@@ -740,6 +741,7 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log(`payIncreaseDollar: ${payIncreaseDollar}`);
     console.log(`payIncreasePercent: ${payIncreasePercent}`);
     console.log(`locTotal: ${locTotal}`);
+    console.log(`increaseOverLOC: ${increaseOverLOC}`);
 
     if (!userObj['numCOLAs']) {
       return `<p>No data available yet for that number of hours per week</p>`
@@ -747,8 +749,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
     return `<p style="max-width: 600px; margin: auto auto 20px auto;"><ul style="max-width: 600px; margin: auto;"><li style="margin-bottom:15px;">${trans['p1_1'][userLangCode]}<span class="purplebold">${numCOLAs}</span>${trans['p1_2'][userLangCode]}<span class="purplebold">${numCOLAs}</span>${trans['p1_3'][userLangCode]}</li>
     <li style="margin-bottom:15px;">${trans['p2_1'][userLangCode]}<span class="purplebold">$${eocHourly}</span>.</li>
-    <li style="margin-bottom:15px;">${trans['p3_1'][userLangCode]}<span class="purplebold">$${payIncreaseDollar.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>${trans['p3_2'][userLangCode]}<span class="purplebold">${payIncreasePercent}</span>${trans['p3_3'][userLangCode]}</li>
-    <li style="margin-bottom:15px;">${trans['p4_1'][userLangCode]}<span class="purplebold">$${locTotal.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>.</li></ul>
+    <li style="margin-bottom:15px;">${trans['p3_1'][userLangCode]}<span class="purplebold">$${payIncreaseDollar.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>${trans['p3_2'][userLangCode]}<span class="purplebold">${payIncreasePercent}</span>${trans['p3_3'][userLangCode]}</li>
+    <li style="margin-bottom:15px;">${trans['p4_1'][userLangCode]}<span class="purplebold">$${increaseOverLOC.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>.</li></ul>
     </p>`
   }
 
