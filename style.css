@@ -184,6 +184,13 @@ img {
   padding: 20px;
 }
 
+.textInput {
+  width: 100%;
+  font-size: 18px;
+  color: #531078;
+  font-family: Lato,sans-serif;
+}
+
 .inputLabel {
   width: 100%;
   font-size: 18px;
