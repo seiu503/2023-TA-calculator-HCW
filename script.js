@@ -2,560 +2,630 @@ const lookup = [
   {
     "userHours": 1,
     "eocHourly": 20,
-    "locTotal": 1996,
-    "increaseOverCurrent": 148,
+    "locTotalNoContract": 1775.84,
+    "locTotal": 1914.49,
+    "increaseOverCurrent": 138.65,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 2,
     "eocHourly": 20,
-    "locTotal": 3992,
-    "increaseOverCurrent": 296,
+    "locTotalNoContract": 3551.69,
+    "locTotal": 3828.99,
+    "increaseOverCurrent": 277.3,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 3,
     "eocHourly": 20,
-    "locTotal": 5988,
-    "increaseOverCurrent": 444,
+    "locTotalNoContract": 5327.53,
+    "locTotal": 5743.48,
+    "increaseOverCurrent": 415.95,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 4,
     "eocHourly": 20,
-    "locTotal": 7984,
-    "increaseOverCurrent": 592,
+    "locTotalNoContract": 7103.38,
+    "locTotal": 7657.98,
+    "increaseOverCurrent": 554.6,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 5,
     "eocHourly": 20,
-    "locTotal": 9980,
-    "increaseOverCurrent": 740,
+    "locTotalNoContract": 8879.22,
+    "locTotal": 9572.47,
+    "increaseOverCurrent": 693.24,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 6,
     "eocHourly": 20,
-    "locTotal": 11976,
-    "increaseOverCurrent": 888,
+    "locTotalNoContract": 10655.07,
+    "locTotal": 11486.96,
+    "increaseOverCurrent": 831.89,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 7,
     "eocHourly": 20,
-    "locTotal": 13972,
-    "increaseOverCurrent": 1035,
+    "locTotalNoContract": 12430.91,
+    "locTotal": 13401.46,
+    "increaseOverCurrent": 970.54,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 8,
     "eocHourly": 20,
-    "locTotal": 15968,
-    "increaseOverCurrent": 1183,
+    "locTotalNoContract": 14206.76,
+    "locTotal": 15315.95,
+    "increaseOverCurrent": 1109.19,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 9,
     "eocHourly": 20,
-    "locTotal": 17964,
-    "increaseOverCurrent": 1331,
+    "locTotalNoContract": 15982.6,
+    "locTotal": 17230.45,
+    "increaseOverCurrent": 1247.84,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 10,
     "eocHourly": 20,
-    "locTotal": 19960,
-    "increaseOverCurrent": 1479,
+    "locTotalNoContract": 17758.45,
+    "locTotal": 19144.94,
+    "increaseOverCurrent": 1386.49,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 11,
     "eocHourly": 20,
-    "locTotal": 21956,
-    "increaseOverCurrent": 1627,
+    "locTotalNoContract": 19534.29,
+    "locTotal": 21059.43,
+    "increaseOverCurrent": 1525.14,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 12,
     "eocHourly": 20,
-    "locTotal": 23952,
-    "increaseOverCurrent": 1775,
+    "locTotalNoContract": 21310.14,
+    "locTotal": 22973.93,
+    "increaseOverCurrent": 1663.79,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 13,
     "eocHourly": 20,
-    "locTotal": 25948,
-    "increaseOverCurrent": 1923,
+    "locTotalNoContract": 23085.98,
+    "locTotal": 24888.42,
+    "increaseOverCurrent": 1802.44,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 14,
     "eocHourly": 20,
-    "locTotal": 27944,
-    "increaseOverCurrent": 2071,
+    "locTotalNoContract": 24861.83,
+    "locTotal": 26802.91,
+    "increaseOverCurrent": 1941.09,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 15,
     "eocHourly": 20,
-    "locTotal": 29940,
-    "increaseOverCurrent": 2219,
+    "locTotalNoContract": 26637.67,
+    "locTotal": 28717.41,
+    "increaseOverCurrent": 2079.73,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 16,
     "eocHourly": 20,
-    "locTotal": 31936,
-    "increaseOverCurrent": 2367,
+    "locTotalNoContract": 28413.52,
+    "locTotal": 30631.9,
+    "increaseOverCurrent": 2218.38,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 17,
     "eocHourly": 20,
-    "locTotal": 33932,
-    "increaseOverCurrent": 2515,
+    "locTotalNoContract": 30189.36,
+    "locTotal": 32546.4,
+    "increaseOverCurrent": 2357.03,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 18,
     "eocHourly": 20,
-    "locTotal": 35928,
-    "increaseOverCurrent": 2663,
+    "locTotalNoContract": 31965.21,
+    "locTotal": 34460.89,
+    "increaseOverCurrent": 2495.68,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 19,
     "eocHourly": 20,
-    "locTotal": 37924,
-    "increaseOverCurrent": 2810,
+    "locTotalNoContract": 33741.05,
+    "locTotal": 36375.38,
+    "increaseOverCurrent": 2634.33,
     "numCOLAs": 2,
     "numSteps": 0
   },
   {
     "userHours": 20,
     "eocHourly": 21,
-    "locTotal": 40960,
-    "increaseOverCurrent": 3998,
+    "locTotalNoContract": 35516.9,
+    "locTotal": 39245.78,
+    "increaseOverCurrent": 3728.88,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 21,
     "eocHourly": 21,
-    "locTotal": 43008,
-    "increaseOverCurrent": 4198,
+    "locTotalNoContract": 37292.74,
+    "locTotal": 41208.07,
+    "increaseOverCurrent": 3915.32,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 22,
     "eocHourly": 21,
-    "locTotal": 45056,
-    "increaseOverCurrent": 4398,
+    "locTotalNoContract": 39068.59,
+    "locTotal": 43170.36,
+    "increaseOverCurrent": 4101.77,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 23,
     "eocHourly": 21,
-    "locTotal": 47104,
-    "increaseOverCurrent": 4598,
+    "locTotalNoContract": 40844.43,
+    "locTotal": 45132.64,
+    "increaseOverCurrent": 4288.21,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 24,
     "eocHourly": 21,
-    "locTotal": 49152,
-    "increaseOverCurrent": 4798,
+    "locTotalNoContract": 42620.28,
+    "locTotal": 47094.93,
+    "increaseOverCurrent": 4474.65,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 25,
     "eocHourly": 21,
-    "locTotal": 51201,
-    "increaseOverCurrent": 4999,
+    "locTotalNoContract": 44396.12,
+    "locTotal": 49057.22,
+    "increaseOverCurrent": 4661.1,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 26,
     "eocHourly": 21,
-    "locTotal": 53249,
-    "increaseOverCurrent": 5199,
+    "locTotalNoContract": 46171.97,
+    "locTotal": 51019.51,
+    "increaseOverCurrent": 4847.54,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 27,
     "eocHourly": 21,
-    "locTotal": 55297,
-    "increaseOverCurrent": 5399,
+    "locTotalNoContract": 47947.81,
+    "locTotal": 52981.8,
+    "increaseOverCurrent": 5033.99,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 28,
     "eocHourly": 21,
-    "locTotal": 57345,
-    "increaseOverCurrent": 5599,
+    "locTotalNoContract": 49723.66,
+    "locTotal": 54944.09,
+    "increaseOverCurrent": 5220.43,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 29,
     "eocHourly": 21,
-    "locTotal": 59393,
-    "increaseOverCurrent": 5799,
+    "locTotalNoContract": 51499.5,
+    "locTotal": 56906.38,
+    "increaseOverCurrent": 5406.87,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 30,
     "eocHourly": 21,
-    "locTotal": 61441,
-    "increaseOverCurrent": 5999,
+    "locTotalNoContract": 53275.35,
+    "locTotal": 58868.67,
+    "increaseOverCurrent": 5593.32,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 31,
     "eocHourly": 21,
-    "locTotal": 63489,
-    "increaseOverCurrent": 6199,
+    "locTotalNoContract": 55051.19,
+    "locTotal": 60830.96,
+    "increaseOverCurrent": 5779.76,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 32,
     "eocHourly": 21,
-    "locTotal": 65537,
-    "increaseOverCurrent": 6398,
+    "locTotalNoContract": 56827.04,
+    "locTotal": 62793.24,
+    "increaseOverCurrent": 5966.21,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 33,
     "eocHourly": 21,
-    "locTotal": 67585,
-    "increaseOverCurrent": 6598,
+    "locTotalNoContract": 58602.88,
+    "locTotal": 64755.53,
+    "increaseOverCurrent": 6152.65,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 34,
     "eocHourly": 21,
-    "locTotal": 69633,
-    "increaseOverCurrent": 6798,
+    "locTotalNoContract": 60378.73,
+    "locTotal": 66717.82,
+    "increaseOverCurrent": 6339.09,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 35,
     "eocHourly": 21,
-    "locTotal": 71681,
-    "increaseOverCurrent": 6998,
+    "locTotalNoContract": 62154.57,
+    "locTotal": 68680.11,
+    "increaseOverCurrent": 6525.54,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 36,
     "eocHourly": 21,
-    "locTotal": 73729,
-    "increaseOverCurrent": 7198,
+    "locTotalNoContract": 63930.42,
+    "locTotal": 70642.4,
+    "increaseOverCurrent": 6711.98,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 37,
     "eocHourly": 21,
-    "locTotal": 75777,
-    "increaseOverCurrent": 7398,
+    "locTotalNoContract": 65706.26,
+    "locTotal": 72604.69,
+    "increaseOverCurrent": 6898.43,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 38,
     "eocHourly": 21,
-    "locTotal": 77825,
-    "increaseOverCurrent": 7598,
+    "locTotalNoContract": 67482.11,
+    "locTotal": 74566.98,
+    "increaseOverCurrent": 7084.87,
     "numCOLAs": 2,
     "numSteps": 1
   },
   {
     "userHours": 39,
     "eocHourly": 22,
-    "locTotal": 81901,
-    "increaseOverCurrent": 9826,
+    "locTotalNoContract": 69257.95,
+    "locTotal": 78393.27,
+    "increaseOverCurrent": 9135.32,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 40,
     "eocHourly": 22,
-    "locTotal": 84001,
-    "increaseOverCurrent": 10078,
+    "locTotalNoContract": 71033.8,
+    "locTotal": 80403.36,
+    "increaseOverCurrent": 9369.56,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 41,
     "eocHourly": 22,
-    "locTotal": 87151,
-    "increaseOverCurrent": 11380,
+    "locTotalNoContract": 73697.57,
+    "locTotal": 83418.48,
+    "increaseOverCurrent": 9720.92,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 42,
     "eocHourly": 22,
-    "locTotal": 90301,
-    "increaseOverCurrent": 12682,
+    "locTotalNoContract": 76361.33,
+    "locTotal": 86433.61,
+    "increaseOverCurrent": 10072.27,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 43,
     "eocHourly": 22,
-    "locTotal": 93451,
-    "increaseOverCurrent": 13984,
+    "locTotalNoContract": 79025.1,
+    "locTotal": 89448.73,
+    "increaseOverCurrent": 10423.63,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 44,
     "eocHourly": 22,
-    "locTotal": 96601,
-    "increaseOverCurrent": 15285,
+    "locTotalNoContract": 81688.87,
+    "locTotal": 92463.86,
+    "increaseOverCurrent": 10774.99,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 45,
     "eocHourly": 22,
-    "locTotal": 99751,
-    "increaseOverCurrent": 16587,
+    "locTotalNoContract": 84352.64,
+    "locTotal": 95478.99,
+    "increaseOverCurrent": 11126.35,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 46,
     "eocHourly": 22,
-    "locTotal": 102901,
-    "increaseOverCurrent": 17889,
+    "locTotalNoContract": 87016.4,
+    "locTotal": 98494.11,
+    "increaseOverCurrent": 11477.71,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 47,
     "eocHourly": 22,
-    "locTotal": 106051,
-    "increaseOverCurrent": 19191,
+    "locTotalNoContract": 89680.17,
+    "locTotal": 101509.24,
+    "increaseOverCurrent": 11829.07,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 48,
     "eocHourly": 22,
-    "locTotal": 109201,
-    "increaseOverCurrent": 20493,
+    "locTotalNoContract": 92343.94,
+    "locTotal": 104524.36,
+    "increaseOverCurrent": 12180.43,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 49,
     "eocHourly": 22,
-    "locTotal": 112351,
-    "increaseOverCurrent": 21795,
+    "locTotalNoContract": 95007.7,
+    "locTotal": 107539.49,
+    "increaseOverCurrent": 12531.78,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 50,
     "eocHourly": 22,
-    "locTotal": 115501,
-    "increaseOverCurrent": 23097,
+    "locTotalNoContract": 97671.47,
+    "locTotal": 110554.61,
+    "increaseOverCurrent": 12883.14,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 51,
     "eocHourly": 22,
-    "locTotal": 118651,
-    "increaseOverCurrent": 24399,
+    "locTotalNoContract": 100335.24,
+    "locTotal": 113569.74,
+    "increaseOverCurrent": 13234.5,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 52,
     "eocHourly": 22,
-    "locTotal": 121801,
-    "increaseOverCurrent": 25701,
+    "locTotalNoContract": 102999.01,
+    "locTotal": 116584.87,
+    "increaseOverCurrent": 13585.86,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 53,
     "eocHourly": 22,
-    "locTotal": 124951,
-    "increaseOverCurrent": 27003,
+    "locTotalNoContract": 105662.77,
+    "locTotal": 119599.99,
+    "increaseOverCurrent": 13937.22,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 54,
     "eocHourly": 22,
-    "locTotal": 128101,
-    "increaseOverCurrent": 28305,
+    "locTotalNoContract": 108326.54,
+    "locTotal": 122615.12,
+    "increaseOverCurrent": 14288.58,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 55,
     "eocHourly": 22,
-    "locTotal": 131251,
-    "increaseOverCurrent": 29607,
+    "locTotalNoContract": 110990.31,
+    "locTotal": 125630.24,
+    "increaseOverCurrent": 14639.93,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 56,
     "eocHourly": 22,
-    "locTotal": 134401,
-    "increaseOverCurrent": 30909,
+    "locTotalNoContract": 113654.08,
+    "locTotal": 128645.37,
+    "increaseOverCurrent": 14991.29,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 57,
     "eocHourly": 22,
-    "locTotal": 137551,
-    "increaseOverCurrent": 32210,
+    "locTotalNoContract": 116317.84,
+    "locTotal": 131660.5,
+    "increaseOverCurrent": 15342.65,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 58,
     "eocHourly": 22,
-    "locTotal": 140701,
-    "increaseOverCurrent": 33512,
+    "locTotalNoContract": 118981.61,
+    "locTotal": 134675.62,
+    "increaseOverCurrent": 15694.01,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 59,
     "eocHourly": 22,
-    "locTotal": 143851,
-    "increaseOverCurrent": 34814,
+    "locTotalNoContract": 121645.38,
+    "locTotal": 137690.75,
+    "increaseOverCurrent": 16045.37,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 60,
     "eocHourly": 22,
-    "locTotal": 147001,
-    "increaseOverCurrent": 36116,
+    "locTotalNoContract": 124309.15,
+    "locTotal": 140705.87,
+    "increaseOverCurrent": 16396.73,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 61,
     "eocHourly": 22,
-    "locTotal": 150151,
-    "increaseOverCurrent": 37418,
+    "locTotalNoContract": 126972.91,
+    "locTotal": 143721,
+    "increaseOverCurrent": 16748.08,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 62,
     "eocHourly": 22,
-    "locTotal": 153301,
-    "increaseOverCurrent": 38720,
+    "locTotalNoContract": 129636.68,
+    "locTotal": 146736.12,
+    "increaseOverCurrent": 17099.44,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 63,
     "eocHourly": 22,
-    "locTotal": 156451,
-    "increaseOverCurrent": 40022,
+    "locTotalNoContract": 132300.45,
+    "locTotal": 149751.25,
+    "increaseOverCurrent": 17450.8,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 64,
     "eocHourly": 22,
-    "locTotal": 159602,
-    "increaseOverCurrent": 41325,
+    "locTotalNoContract": 134964.22,
+    "locTotal": 152766.38,
+    "increaseOverCurrent": 17802.16,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 65,
     "eocHourly": 22,
-    "locTotal": 162752,
-    "increaseOverCurrent": 42627,
+    "locTotalNoContract": 137627.98,
+    "locTotal": 155781.5,
+    "increaseOverCurrent": 18153.52,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 66,
     "eocHourly": 22,
-    "locTotal": 165902,
-    "increaseOverCurrent": 43929,
+    "locTotalNoContract": 140291.75,
+    "locTotal": 158796.63,
+    "increaseOverCurrent": 18504.88,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 67,
     "eocHourly": 22,
-    "locTotal": 169052,
-    "increaseOverCurrent": 45231,
+    "locTotalNoContract": 142955.52,
+    "locTotal": 161811.75,
+    "increaseOverCurrent": 18856.24,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 68,
     "eocHourly": 22,
-    "locTotal": 172202,
-    "increaseOverCurrent": 46533,
+    "locTotalNoContract": 145619.29,
+    "locTotal": 164826.88,
+    "increaseOverCurrent": 19207.59,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 69,
     "eocHourly": 22,
-    "locTotal": 175352,
-    "increaseOverCurrent": 47834,
+    "locTotalNoContract": 148283.05,
+    "locTotal": 167842.01,
+    "increaseOverCurrent": 19558.95,
     "numCOLAs": 2,
     "numSteps": 2
   },
   {
     "userHours": 70,
     "eocHourly": 22,
-    "locTotal": 178502,
-    "increaseOverCurrent": 49136,
+    "locTotalNoContract": 150946.82,
+    "locTotal": 170857.13,
+    "increaseOverCurrent": 19910.31,
     "numCOLAs": 2,
     "numSteps": 2
   }
@@ -573,6 +643,7 @@ let lifeOfContractTotal = 0;
 let userLang = "en-US";
 let userLangCode = "en";
 let userObj = {};
+let projUserObj = {};
 let hpwElIsTouched = false;
 let hpwProjElIsTouched = false;
 
@@ -592,6 +663,13 @@ const trans = {
     vi: " COLA (Điều chỉnh chi phí sinh hoạt) và tăng lên tới ", 
     zh: " COLA（生活费用调整）和直到 "
   },
+  p1_2_noStep: {
+    en: " COLAs (Cost of Living Adjustments).",
+    es: " ajustes por costo de vida (COLA, siglas en inglés) a su salario.",
+    ru: " COLA (корректировка стоимости жизни).",
+    vi: " COLA (Điều chỉnh chi phí sinh hoạt).", 
+    zh: " COLA（生活费用调整）。"
+  },
   p1_3: {
     en: " step increases by the end of the contract.",
     es: " aumentos por escalafón al vencimiento del contrato colectivo.",
@@ -605,6 +683,20 @@ const trans = {
     ru: "Ваша почасовая ставка к концу контракта на 2023-2025 годы составит ",
     vi: "Mức lương theo giờ của bạn vào cuối hợp đồng 2023-2025 sẽ là ", 
     zh: "到 2023-2025 年合同结束时，您的时薪将为 "
+  },
+  p2_2: {
+    en: " for hours up to 40 hours per week, and ",
+    es: " para horas hasta 40 horas por semana, y ",
+    ru: " долларов США за часы до 40 часов в неделю и ",
+    vi: " cho số giờ làm việc lên tới 40 giờ mỗi tuần và ", 
+    zh: " 美元，所有加班时间为 "
+  },
+  p2_3: {
+    en: " for all overtime hours (up to 20 overtime hours per week).",
+    es: " para todas las horas extras/'overtime' (hasta 20 horas extras por semana).",
+    ru: " долларов США за все сверхурочные часы (до 20 часов сверхурочной работы в неделю).",
+    vi: " cho tất cả số giờ làm thêm (tối đa 20 giờ làm thêm mỗi tuần).", 
+    zh: " 美元（每周加班时间不超过 20 小时）。"
   },
   p3_1: {
     en: "This pay increase is ",
@@ -634,18 +726,19 @@ const trans = {
     vi: "Mức tăng thu nhập của bạn trong suốt thời hạn hợp đồng được ước tính là ",
     zh: "在合同期内，您的收入预计将增加 "
   },
-  val1: {
-    en: "Please select the average number of hours you work per week",
-    es: "Por favor seleccione el número promedio de horas que trabaja por semana",
-    ru: "Пожалуйста, выберите среднее количество часов, которые вы работаете в неделю", 
-    vi: "Vui lòng chọn số giờ trung bình bạn làm việc mỗi tuần",
-    zh: "请选择您每周的平均工作时间"
-  },
   valHPW: {
-    en: "Please enter a whole number between 1 and 50"
+    en: "Please enter a whole number between 1 and 50.",
+    es: "Por favor ingresa un número entero entre 1 y 50.",
+    ru: "Пожалуйста, введите целое число от 1 до 50.",
+    vi: "Vui lòng nhập một số nguyên từ 1 đến 50.",
+    zh: "请输入 1 到 50 之间的整数."
   },
   valHPWProj: {
-    en: "Please enter a whole number between 1 and 60"
+    en: "Please enter a whole number between 1 and 60.",
+    es: "Por favor ingresa un número entero entre 1 y 60.",
+    ru: "Пожалуйста, введите целое число от 1 до 60.",
+    vi: "Vui lòng nhập một số nguyên từ 1 đến 60.",
+    zh: "请输入 1 到 60 之间的整数."
   }
 }
 
@@ -723,7 +816,7 @@ document.addEventListener("DOMContentLoaded", function(){
   // listen for changes to projected hours worked
   function projHoursChange(e) {
     console.log('projHoursChange');
-    userHours = e.target.value;
+    userProjHours = e.target.value;
     console.log(`userProjHours: ${userProjHours}`);
     findProjUserObj();
   }
@@ -737,34 +830,37 @@ document.addEventListener("DOMContentLoaded", function(){
     }
   };
 
-
-
-
   // generate results string and message
   function resultsString() {
     // set variables
-    let numCOLAs = userObj['numCOLAs'] || 0;
-    let numSteps = userObj['numSteps'] || 0;
-    let eocHourly = userObj['eocHourly'] || 0;
+    let numCOLAs = projUserObj['numCOLAs'] || 0;
+    let numSteps = projUserObj['numSteps'] || 0;
+    let eocHourly = projUserObj['eocHourly'] || 0;
+    let eocHourlyOvertime = eocHourly * 1.5 || 0;
     let payIncreaseDollar = eocHourly - 17.77 || 0;
     let payIncreasePercent = (payIncreaseDollar / 17.77 * 100).toFixed(0) || 0;
-    let locTotal = userObj['locTotal'] || 0;
-    let increaseOverLOC = locTotal - (17.77 * userHours * 104) || 0;
+    let locTotalNoContract = userObj['locTotalNoContract'] || 0;
+    let locProjTotal = projUserObj['locTotal'] || 0;
+    let increaseOverLOC = locProjTotal - locTotalNoContract || 0;
+    let noSteps = numSteps == '0' || numSteps == 0;
 
     console.log(`numCOLAs: ${numCOLAs}`);
     console.log(`numSteps: ${numSteps}`);
+    console.log(`noSteps: ${noSteps}`);
     console.log(`eocHourly: ${eocHourly}`);
+    console.log(`eocHourlyOvertime: ${eocHourlyOvertime}`);
     console.log(`payIncreaseDollar: ${payIncreaseDollar}`);
     console.log(`payIncreasePercent: ${payIncreasePercent}`);
-    console.log(`locTotal: ${locTotal}`);
+    console.log(`locTotalNoContract: ${locTotalNoContract}`);
     console.log(`increaseOverLOC: ${increaseOverLOC}`);
 
     if (!userObj['numCOLAs']) {
       return `<p>No data available yet for that number of hours per week</p>`
     }
 
-    return `<p style="max-width: 600px; margin: auto auto 20px auto;"><ul style="max-width: 600px; margin: auto;"><li style="margin-bottom:15px;">${trans['p1_1'][userLangCode]}<span class="purplebold">${numCOLAs}</span>${trans['p1_2'][userLangCode]}<span class="purplebold">${numSteps}</span>${trans['p1_3'][userLangCode]}</li>
-    <li style="margin-bottom:15px;">${trans['p2_1'][userLangCode]}<span class="purplebold">$${eocHourly}</span>.</li>
+    return `<p style="max-width: 600px; margin: auto auto 20px auto;"><ul style="max-width: 600px; margin: auto;"><li style="margin-bottom:15px;">
+    ${trans['p1_1'][userLangCode]}<span class="purplebold">${numCOLAs}</span>${noSteps ? trans['p1_2_noStep'][userLangCode] : trans['p1_2'][userLangCode]}<span class="purplebold">${numSteps}</span>${trans['p1_3'][userLangCode]}</li>
+    <li style="margin-bottom:15px;">${trans['p2_1'][userLangCode]}<span class="purplebold">$${eocHourly}</span>${trans['p2_2'][userLangCode]}<span class="purplebold">$${eocHourlyOvertime}</span>${trans['p2_3'][userLangCode]}</li>
     <li style="margin-bottom:15px;">${trans['p3_1'][userLangCode]}<span class="purplebold">$${payIncreaseDollar.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>${trans['p3_2'][userLangCode]}<span class="purplebold">${payIncreasePercent}</span>${trans['p3_3'][userLangCode]}</li>
     <li style="margin-bottom:15px;">${trans['p4_1'][userLangCode]}<span class="purplebold">$${increaseOverLOC.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>.</li></ul>
     </p>`
@@ -777,16 +873,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
   // validate user entry
   function validate() {
-    if (!userHours || userHours == 0) {
-      console.log('!userHours');
-      submit.setAttribute("style", "display:none;");
-      startOver.setAttribute("style", "display:block;");
-      instructions.setAttribute("style", "height: 0; display:none;");
-      inputs.setAttribute("style", "height: 0; display:none;");
-      message.setAttribute("style", "display:block;");
-      results.innerHTML = `<h3 class=center>${trans['val1'][userLangCode]}</h3>`;
-      return;
-    }
+    validateHPW();
+    validateProjHPW();
   }
 
   function validateHPW() {
@@ -798,12 +886,14 @@ document.addEventListener("DOMContentLoaded", function(){
       hPWValEl.setAttribute("style", "display:block;");
       hPWValEl.innerHTML = `${trans['valHPW'][userLangCode]}`;
       submit.setAttribute("disabled", "disabled");
+      startOver.setAttribute("style", "display:block;");
     } else {
       console.log('hpwValid');
       hpwEl.classList.remove("invalid");
       hPWValEl.innerHTML = "";
       hPWValEl.setAttribute("style", "display:none;");
       submit.removeAttribute("disabled");
+      startOver.setAttribute("style", "display:none;");
     }
   }
 
