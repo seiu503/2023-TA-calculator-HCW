@@ -858,6 +858,15 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log(`payIncreasePercent: ${payIncreasePercent}`);
     console.log(`locTotalNoContract: ${locTotalNoContract}`);
     console.log(`increaseOverLOC: ${increaseOverLOC}`);
+    console.log(`$${increaseOverLOC
+                      .toLocaleString(
+                        undefined, 
+                          { 
+                            maximumFractionDigits: 2, 
+                            minimumFractionDigits: 2 
+                          }
+                        )
+                      }`)
 
     if (noSteps) {
       stepsString = trans['p1_2_noStep'][userLangCode];
@@ -907,8 +916,7 @@ document.addEventListener("DOMContentLoaded", function(){
                             minimumFractionDigits: 2 
                           }
                         )
-                      }
-                  </span>.
+                      }</span>.
                 </li>
               </ul>
             </p>`
