@@ -685,10 +685,10 @@ const trans = {
     zh: "到 2023-2025 年合同结束时，您的时薪将为 "
   },
   p2_2: {
-    en: " for hours up to 40 hours per week, and ",
-    es: " para horas hasta 40 horas por semana, y ",
-    ru: " долларов США за часы до 40 часов в неделю и ",
-    vi: " cho số giờ làm việc lên tới 40 giờ mỗi tuần và ", 
+    en: " for hours up to 40 per week, and ",
+    es: " para horas hasta 40 por semana, y ",
+    ru: " долларов США за часы до 40 в неделю и ",
+    vi: " cho số giờ làm việc lên tới 40 mỗi tuần và ", 
     zh: " 美元，所有加班时间为 "
   },
   p2_3: {
@@ -748,6 +748,7 @@ document.addEventListener("DOMContentLoaded", function(){
   // save elements to variables for later access
   let displayEl = document.getElementById("display");
   let dispwrap = document.getElementById("dispwrap");
+  let form = document.getElementById("inputForm");
   let submit = document.getElementById("submitButton");
   let startOver = document.getElementById("startOverButton");
   let results = document.getElementById("results");
@@ -759,6 +760,9 @@ document.addEventListener("DOMContentLoaded", function(){
   let instructions = document.getElementById("instructions");
   let inputs = document.getElementById("inputs");
   let languagePicker = document.getElementsByClassName('gt_selector')[0];
+
+  // reset form on page reload
+  form.reset();
 
   // set language code
   const setLanguageCode = () => {
@@ -836,13 +840,14 @@ document.addEventListener("DOMContentLoaded", function(){
     let numCOLAs = projUserObj['numCOLAs'] || 0;
     let numSteps = projUserObj['numSteps'] || 0;
     let eocHourly = projUserObj['eocHourly'] || 0;
-    let eocHourlyOvertime = eocHourly * 1.5 || 0;
+    let eocHourlyOvertime = (eocHourly * 1.5).toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: 2 }) || 0;
     let payIncreaseDollar = eocHourly - 17.77 || 0;
     let payIncreasePercent = (payIncreaseDollar / 17.77 * 100).toFixed(0) || 0;
     let locTotalNoContract = userObj['locTotalNoContract'] || 0;
     let locProjTotal = projUserObj['locTotal'] || 0;
     let increaseOverLOC = locProjTotal - locTotalNoContract || 0;
     let noSteps = numSteps == '0' || numSteps == 0;
+    let stepsString = '';
 
     console.log(`numCOLAs: ${numCOLAs}`);
     console.log(`numSteps: ${numSteps}`);
@@ -854,27 +859,65 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log(`locTotalNoContract: ${locTotalNoContract}`);
     console.log(`increaseOverLOC: ${increaseOverLOC}`);
 
-    if (!userObj['numCOLAs']) {
-      return `<p>No data available yet for that number of hours per week</p>`
+    if (noSteps) {
+      stepsString = trans['p1_2_noStep'][userLangCode];
+    } else {
+      stepsString = `${trans['p1_2'][userLangCode]}<span class="purplebold">${numSteps}</span>${trans['p1_3'][userLangCode]}`;
     }
 
-    return `<p style="max-width: 600px; margin: auto auto 20px auto;"><ul style="max-width: 600px; margin: auto;"><li style="margin-bottom:15px;">
-    ${trans['p1_1'][userLangCode]}<span class="purplebold">${numCOLAs}</span>${noSteps ? trans['p1_2_noStep'][userLangCode] : trans['p1_2'][userLangCode]}<span class="purplebold">${numSteps}</span>${trans['p1_3'][userLangCode]}</li>
-    <li style="margin-bottom:15px;">${trans['p2_1'][userLangCode]}<span class="purplebold">$${eocHourly}</span>${trans['p2_2'][userLangCode]}<span class="purplebold">$${eocHourlyOvertime}</span>${trans['p2_3'][userLangCode]}</li>
-    <li style="margin-bottom:15px;">${trans['p3_1'][userLangCode]}<span class="purplebold">$${payIncreaseDollar.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>${trans['p3_2'][userLangCode]}<span class="purplebold">${payIncreasePercent}</span>${trans['p3_3'][userLangCode]}</li>
-    <li style="margin-bottom:15px;">${trans['p4_1'][userLangCode]}<span class="purplebold">$${increaseOverLOC.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>.</li></ul>
-    </p>`
+    return `<p style="max-width: 600px; margin: auto auto 20px auto;">
+              <ul style="max-width: 600px; margin: auto;">
+                <li style="margin-bottom:15px;">
+                  ${trans['p1_1'][userLangCode]}
+                  <span class="purplebold">${numCOLAs}</span>
+                  ${stepsString}
+                </li>
+                <li style="margin-bottom:15px;">
+                  ${trans['p2_1'][userLangCode]}
+                  <span class="purplebold">$${eocHourly}</span>
+                  ${trans['p2_2'][userLangCode]}
+                  <span class="purplebold">$${eocHourlyOvertime}</span>
+                  ${trans['p2_3'][userLangCode]}
+                </li>
+                <li style="margin-bottom:15px;">
+                  ${trans['p3_1'][userLangCode]}
+                  <span class="purplebold">
+                    $${payIncreaseDollar
+                      .toLocaleString(
+                        undefined, 
+                          { 
+                            maximumFractionDigits: 2, 
+                            minimumFractionDigits: 2 
+                          }
+                        )
+                      }
+                  </span>
+                  ${trans['p3_2'][userLangCode]}
+                  <span class="purplebold">${payIncreasePercent}</span>
+                  ${trans['p3_3'][userLangCode]}
+                </li>
+                <li style="margin-bottom:15px;">
+                  ${trans['p4_1'][userLangCode]}
+                  <span class="purplebold">
+                    $${increaseOverLOC
+                      .toLocaleString(
+                        undefined, 
+                          { 
+                            maximumFractionDigits: 2, 
+                            minimumFractionDigits: 2 
+                          }
+                        )
+                      }
+                  </span>.
+                </li>
+              </ul>
+            </p>`
   }
 
   // On reload, reload page
   function handleReload() {
+    form.reset(); 
     window.location.reload();
-  }
-
-  // validate user entry
-  function validate() {
-    validateHPW();
-    validateProjHPW();
   }
 
   function validateHPW() {
@@ -887,6 +930,7 @@ document.addEventListener("DOMContentLoaded", function(){
       hPWValEl.innerHTML = `${trans['valHPW'][userLangCode]}`;
       submit.setAttribute("disabled", "disabled");
       startOver.setAttribute("style", "display:block;");
+      return false;
     } else {
       console.log('hpwValid');
       hpwEl.classList.remove("invalid");
@@ -894,37 +938,46 @@ document.addEventListener("DOMContentLoaded", function(){
       hPWValEl.setAttribute("style", "display:none;");
       submit.removeAttribute("disabled");
       startOver.setAttribute("style", "display:none;");
+      return true;
     }
   }
 
   function validateProjHPW() {
     console.log('validateHPWProj');
     var reg = /^\d+$/;
-    if (!userHours || userHours < 1 || userHours > 60 || !reg.test(userHours) ) {
+    if (!userProjHours || userProjHours < 1 || userProjHours > 60 || !reg.test(userProjHours) ) {
       console.log('hpwProjInvalid');
       hpwProjEl.classList.add("invalid");
       hPWProjValEl.setAttribute("style", "display:block;");
       hPWProjValEl.innerHTML = `${trans['valHPWProj'][userLangCode]}`;
       submit.setAttribute("disabled", "disabled");
+      return false;
     } else {
       console.log('hpwValid');
       hpwProjEl.classList.remove("invalid");
       hPWProjValEl.innerHTML = "";
       hPWProjValEl.setAttribute("style", "display:none;");
       submit.removeAttribute("disabled");
+      return true;
     }
   }
 
-  // On submit, hide instructions and display results
+  // On submit, validate inputs. if valid, hide instructions and display results
   function handleSubmit(e) {
     e.preventDefault();
-    
-    submit.setAttribute("style", "display:none;");
-    startOver.setAttribute("style", "display:block;");
-    instructions.setAttribute("style", "height: 0; display:none;");
-    inputs.setAttribute("style", "height: 0; display:none;");
-    message.setAttribute("style", "display:block;");
-    results.innerHTML = resultsString();
+    let valid;
+    valid = validateHPW();
+    valid = validateProjHPW();
+    console.log(valid);
+    if (valid) {
+      console.log('valid', valid);
+      submit.setAttribute("style", "display:none;");
+      startOver.setAttribute("style", "display:block;");
+      instructions.setAttribute("style", "height: 0; display:none;");
+      inputs.setAttribute("style", "height: 0; display:none;");
+      message.setAttribute("style", "display:block;");
+      results.innerHTML = resultsString();
+    }
   }
 
   submit.addEventListener("click", handleSubmit);
