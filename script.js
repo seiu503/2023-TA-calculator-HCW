@@ -727,18 +727,18 @@ const trans = {
     zh: "在合同期内，您的收入预计将增加 "
   },
   valHPW: {
-    en: "Please enter a whole number between 1 and 50.",
-    es: "Por favor ingresa un número entero entre 1 y 50.",
-    ru: "Пожалуйста, введите целое число от 1 до 50.",
-    vi: "Vui lòng nhập một số nguyên từ 1 đến 50.",
-    zh: "请输入 1 到 50 之间的整数."
+    en: "Please enter a whole number between 1 and 140.",
+    es: "Por favor ingresa un número entero entre 1 y 140.",
+    ru: "Пожалуйста, введите целое число от 1 до 140.",
+    vi: "Vui lòng nhập một số nguyên từ 1 đến 140.",
+    zh: "请输入 1 到 140 之间的整数."
   },
   valHPWProj: {
-    en: "Please enter a whole number between 1 and 60.",
-    es: "Por favor ingresa un número entero entre 1 y 60.",
-    ru: "Пожалуйста, введите целое число от 1 до 60.",
-    vi: "Vui lòng nhập một số nguyên từ 1 đến 60.",
-    zh: "请输入 1 到 60 之间的整数."
+    en: "Please enter a whole number between 1 and 140.",
+    es: "Por favor ingresa un número entero entre 1 y 140.",
+    ru: "Пожалуйста, введите целое число от 1 до 140.",
+    vi: "Vui lòng nhập một số nguyên từ 1 đến 140.",
+    zh: "请输入 1 到 140 之间的整数."
   }
 }
 
@@ -931,7 +931,7 @@ document.addEventListener("DOMContentLoaded", function(){
   function validateHPW() {
     console.log('validateHPW');
     var reg = /^\d+$/;
-    if (!userHours || userHours < 1 || userHours > 50 || !reg.test(userHours) ) {
+    if (!userHours || userHours < 1 || userHours > 140 || !reg.test(userHours) ) {
       console.log('hpwInvalid');
       hpwEl.classList.add("invalid");
       hPWValEl.setAttribute("style", "display:block;");
@@ -953,7 +953,7 @@ document.addEventListener("DOMContentLoaded", function(){
   function validateProjHPW() {
     console.log('validateHPWProj');
     var reg = /^\d+$/;
-    if (!userProjHours || userProjHours < 1 || userProjHours > 60 || !reg.test(userProjHours) ) {
+    if (!userProjHours || userProjHours < 1 || userProjHours > 140 || !reg.test(userProjHours) ) {
       console.log('hpwProjInvalid');
       hpwProjEl.classList.add("invalid");
       hPWProjValEl.setAttribute("style", "display:block;");
